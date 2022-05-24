@@ -48,9 +48,9 @@ describe('Testes da função getOpeningHours', () => {
     expect(() => getOpeningHours('Sunday', '09:c0-AM')).toThrow('The minutes should represent a number');
   });
 
-//   it('dispara um erro para horarios fora de formatação', () => {
-//     expect(() => getOpeningHours('Tuesday', '09:78')).toThrow('The minutes must be between 0 and 59');
-//   });
+  // it('dispara um erro para horarios fora de formatação', () => {
+  //     expect(() => getOpeningHours('Tuesday', '09:78')).toThrow('The minutes must be between 0 and 59');
+  //   });
 
 //   it('dispara um erro para horarios fora de formatação', () => {
 //     expect(() => getOpeningHours('Saturday', '23:00')).toThrow('The hour must be between 0 and 12');
